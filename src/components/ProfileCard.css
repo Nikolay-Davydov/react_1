@@ -26,3 +26,17 @@
     font-size: 0.9em;
     color: #555;
 }
+
+.profile-card button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-card button:hover {
+    background-color: #45a049;
+}
