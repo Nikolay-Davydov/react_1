@@ -1,3 +1,10 @@
+/* ProfileCard.css */
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Чтобы карточки переносились на новую строку при необходимости */
+}
 
 .profile-card {
     border: 1px solid #ccc;
