@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProfileCard.css"
 
-function ProfileCard({name, photo, description, onCardClick}) {
+function ProfileCard({ name, photo, description, onCardClick }) {
     return (
         <div className="profile-card" onClick={onCardClick}>
             <img src={photo} alt={name} className="profile-photo"/>
